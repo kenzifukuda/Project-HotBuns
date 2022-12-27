@@ -100,7 +100,11 @@ body {
   object-fit: cover;
   padding: 20px;
   border-style: solid;
+}
 
+.container a {
+  text-decoration: none;
+  color: black;
 }
 
 #recipe-1 {
@@ -209,8 +213,6 @@ body {
   align-items: center;
   text-align: center;
   color: black;
-  background-color: white;
-  opacity: 0.6;
 }
 
 /* footer styling */

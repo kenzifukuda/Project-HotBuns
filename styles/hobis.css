@@ -101,12 +101,23 @@ body {
 
 }
 
+.recipe-box a {
+    text-decoration: none;
+    color: black;
+}
+
 #recipe-box--1 {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
     /* border-style: dashed; */
+    background-image: url(../images/gingerbread-cookie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 #recipe-box--2 {
@@ -115,6 +126,12 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     /* border-style: dashed; */
+    background-image: url(../images/eggnog-cookies-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 #recipe-box--3 {
@@ -123,6 +140,12 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     /* border-style: dashed; */
+    background-image: url(../images/banana-bread-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 
@@ -132,6 +155,12 @@ body {
     grid-row-start: 2;
     grid-row-end: 4;
     /* border-style: dashed; */
+    background-image: url(../images/vanilla-cake-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 
@@ -141,6 +170,12 @@ body {
     grid-row-start: 2;
     grid-row-end: 6;
     /* border-style: dashed; */
+    background-image: url(../images/pecan-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 #recipe-box--6 {
@@ -149,6 +184,12 @@ body {
     grid-row-start: 2;
     grid-row-end: 6;
     /* border-style: dashed; */
+    background-image: url(../images/berry-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 
@@ -158,6 +199,12 @@ body {
     grid-row-start: 6;
     grid-row-end: 9;
     /* border-style: dashed; */
+    background-image: url(../images/apple-pie-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 #recipe-box--8 {
@@ -166,6 +213,12 @@ body {
     grid-row-start: 6;
     grid-row-end: 9;
     /* border-style: dashed; */
+    background-image: url(../images/oatmeal-cookies-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 #recipe-box--9 {
@@ -174,6 +227,12 @@ body {
     grid-row-start: 6;
     grid-row-end: 9;
     /* border-style: dashed; */
+    background-image: url(../images/cranberry-muffins-real.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    height: 300px;
 }
 
 
@@ -186,12 +245,16 @@ body {
 
 
 .image-caption {
-    position: relative;
-    margin: 10px;
-    padding:10px;
-    /* border-style: dashed; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
+    color: black;
+  }
 
 @media (max-width: 650px) {
     body {
