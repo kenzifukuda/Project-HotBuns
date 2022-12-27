@@ -2,75 +2,129 @@
     margin: 0; 
     padding: 0; 
     -moz-box-sizing: border-box; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
     }
-/* Navigation Menu Styling */
-    nav {
-        top: 0%;
-        width: 100%;
-        position: fixed;
-        background-color: #007bce;
-      }
-      .container {
-        padding: 22px;
-        margin: 0 auto;
-        text-align: center;
-      }
-      .container ul li {
-        list-style: none;
-        margin: 0 10px;
-        display: inline-block;
-      }
-      .container ul li a:hover {
-        padding: 12px;
-        color: #fc0;
-      }
-      .container ul li a {
-        margin: 8px;
-        padding: 10px;
-        color: #fff;
-        font-size: 1.2em;
-        text-decoration: none;
-        transition: all 0.3s ease-out;
-      }
-      .active {
-        border-bottom: 2px solid #d0d7d9;
-      }
-      .container p{
-      margin-bottom: 16px;
-      color: #fc0;
-      font-weight: 700;
-      font-size: 20px;
-      }
 
-      /* End of Naviagtion Styling */
+header {
+  display: block;
+  width: 100%;
+  padding-bottom: 50px;
+  border-style: dashed;
 
-    body { 
-    font-family: 'Roboto', sans-serif; 
-    }
-    h1,h2,h3,h4,h5,h6,a{
-      margin:0;
-    }
-     a {
-      color: inherit;
-     }
+}
 
-     .item {
-        width: 100%;
-        padding: 50px;
-        height: 280px;
-        text-align: center;
-        background-color: #ecf0f1;
-        border-bottom: 1px solid #ccc;
-        
-      }
-      .first {
-        margin-top: 100px;
-      }
-      .default {
-        margin-top: 64px;
-      }
-      .col-full {
-        width: 1044px;
-      }
-    
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    font-family: Helvetica, monospace;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: purple;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover{
+    background-color: white;
+}
+
+#logo{
+  width: 50px;
+  float:left;
+}
+
+/* End of Naviagtion Styling */
+
+
+.mochi-cats {
+  position: fixed;
+  top: 20px;
+  right: 0%;
+
+}   
+
+#greeting{
+  text-align: center;
+  margin-top: 60px;
+  font-family: Helvetica;
+  color: black;
+  margin-bottom: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: justify;
+  font-family: Helvetica;
+}
+
+.container-parent {
+  padding: 20px;
+}
+
+.container {
+  float: left;
+  border-style: dashed;
+  width: 50%;
+  padding: 20px;
+  
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container div{
+  text-align: justify;
+  
+}
+
+/* footer styling */
+footer {
+    flex-shrink: 0;
+    font-family: Helvetica;
+    border-top: black 1px solid;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#contact{
+    list-style: none;
+}
+
+#contact li{
+    display: inline-block;
+}
+
+#social-media{
+    width: 50px;
+    margin: auto;
+    display: inline;
+}
+
+#social-media img{
+    width: 15px
+}
