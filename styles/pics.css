@@ -9,7 +9,7 @@ header {
   display: block;
   width: 100%;
   padding-bottom: 50px;
-  border-style: dashed;
+  border-bottom: 2px black solid;
 
 }
 
@@ -35,7 +35,7 @@ header {
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: purple;
+    background-color: #ada7ff;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -46,7 +46,7 @@ header {
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover{
-    background-color: white;
+    background-color: #ada7ff;
 }
 
 #logo{
@@ -128,6 +128,10 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 #contact{
