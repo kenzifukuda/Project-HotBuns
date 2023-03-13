@@ -106,13 +106,20 @@ body {
     color: black;
 }
 
+.recipe-box a:hover {
+    color:#ada7ff
+}
+
+
+
+
 #recipe-box--1 {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
     /* border-style: dashed; */
-    background-image: url(../images/gingerbread-cookie-real.jpg);
+    background-image: url(../images/chocolate-chip-cookies.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -126,7 +133,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     /* border-style: dashed; */
-    background-image: url(../images/eggnog-cookies-real.jpg);
+    background-image:url(../images/vanilla-cake-real.jpg); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -155,7 +162,7 @@ body {
     grid-row-start: 2;
     grid-row-end: 4;
     /* border-style: dashed; */
-    background-image: url(../images/vanilla-cake-real.jpg);
+    background-image: url(../images/eggnog-cookies-real.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -255,6 +262,124 @@ body {
     text-align: center;
     color: black;
   }
+
+#recipe-box--2 #popup1{
+    display: none;
+}
+
+#recipe-box--2:hover #popup1{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--3 #popup2{
+    display: none;
+}
+
+#recipe-box--3:hover #popup2{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--4 #popup3{
+    display: none;
+}
+
+#recipe-box--4:hover #popup3{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--5 #popup4{
+    display: none;
+}
+
+#recipe-box--5:hover #popup4{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--6 #popup5{
+    display: none;
+}
+
+#recipe-box--6:hover #popup5{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--7 #popup6{
+    display: none;
+}
+
+#recipe-box--7:hover #popup6{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--8 #popup7{
+    display: none;
+}
+
+#recipe-box--8:hover #popup7{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#recipe-box--9 #popup8{
+    display: none;
+}
+
+#recipe-box--9:hover #popup8{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.popup {
+    color: white;
+    font-size: 30px;
+}
+
 
 @media (max-width: 650px) {
     body {

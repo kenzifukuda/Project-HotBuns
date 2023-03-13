@@ -79,22 +79,31 @@ body {
     font-family: Helvetica;
   }
 
+.container-parent a {
+  text-decoration: none;
+  color: black;
+}
 
+
+.container-parent a:hover{
+  background-color: white;
+}
   .container-parent {
     display: grid;
-    width: 80%;
+    width: 60%;
+    /* border-style: dashed; */
     margin: auto;
-     grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+    padding: 10px;
     /* grid-template-rows: repeat(9, 5w);  */
-    grid-gap: 15px;
   }
   
   .container {
-    width: 600px;
-    height: 250px;
-    object-fit: cover;
+    /* width: 600px;
+    height: 250px; */
+    /* object-fit: cover; */
     padding: 20px;
-    margin: 5px;
+    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;

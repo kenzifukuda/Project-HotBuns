@@ -123,7 +123,7 @@ body {
   grid-row-start: 3;
   grid-row-end: 6;
   /* border-style: solid; */
-  background-image: url(../images/gingerbread-cookie-real.jpg);
+  background-image: url(../images/chocolate-chip-cookies.jpg);
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
@@ -156,6 +156,14 @@ body {
   background:rgba(173, 167, 255, 0.5);
 }
 
+#blog-1 a:hover{
+  color: white;
+}
+
+#blog-2 a:hover{
+  color: white;
+}
+
 
 #photo-1 {
   grid-column-start: 6;
@@ -173,7 +181,7 @@ body {
   grid-column-end: 9;
   grid-row-start: 3;
   grid-row-end: 6;
-  background-image: url(../images/banana-bread-real.jpg);
+  background-image: url(../images/Website\ Photos/cake-3-strawberries.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,6 +195,10 @@ body {
   grid-row-start: 8;
   grid-row-end: 9;
   background:rgba(173, 167, 255, 0.5);
+}
+
+#playlist-list a:hover{
+  color: white;
 }
 
 #playlist {
@@ -227,6 +239,10 @@ body {
   text-align: center;
   color: black;
 
+}
+
+.recipe-text a:hover {
+  color: #ada7ff;
 }
 
 /* footer styling */
